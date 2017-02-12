@@ -193,7 +193,18 @@
         <tomcat.version>8.5.11</tomcat.version>
       </properties>
     </profile>
-    <profile>
+        <profile>
+               <id>sonar</id>
+               <activation>
+                      <activeByDefault>true</activeByDefault>
+                      </activation>
+               <properties>
+                      <sonar.host.url>
+                             http://localhost:9000
+                             </sonar.host.url>
+                      </properties>
+         </profile>
+<profile>
       <id>tomcat80</id>
       <properties>
         <tomcat.major-version>8</tomcat.major-version>
