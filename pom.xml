@@ -59,10 +59,6 @@
       <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
     </site>
   </distributionManagement>
-  <snapshotRepository>
-              <id>nexus</id>
-              <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
-</snapshotRepository>
   <dependencies>
     <dependency>
       <groupId>commons-logging</groupId>
